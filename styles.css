@@ -130,7 +130,6 @@ table {
 }
 
 .book_data_form {
-    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -186,18 +185,12 @@ table {
         Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
-    /* height: 220px;
-    width: 220px; */
     border: 1px solid #142200;
     border-left: 10px solid #142200;
     border-radius: 10px;
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: 4fr 1fr;
-    /* flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around; */
-    /* position: relative; */
     background-color: #3f6212;
     padding: 4px 0 5px 10px;
     color: #f7fee7;
@@ -218,9 +211,6 @@ table {
     border-radius: 7px;
     width: 30px;
     height: 30px;
-    /* position: absolute; */
-    /* left: 85%;
-    bottom: 88%; */
     background-color: rgba(255, 0, 0, 0.585);
     border-color: rgba(255, 0, 0, 0.585);
     grid-column: 2 / 3;
@@ -231,9 +221,6 @@ table {
 
 .author_section {
     grid-row: 1 / 2;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 0.5fr;
-    grid-template-rows: 1fr; */
 }
 
 .title_section {
@@ -257,10 +244,6 @@ table {
     margin-top: 10px;
     font-style: normal;
 }
-/* .author_section > label {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-} */
 
 .add_new_book_btn {
     width: 50px;
