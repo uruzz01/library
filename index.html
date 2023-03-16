@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo_container">
+                    <img src="icons/library-svgrepo-com.svg" class="logo" />
+                    <div class="my_library">myLibrary</div>
+                </div>
+            </div>
+
+            <div class="library_container"></div>
+
+            <div class="sidebar">
+                <div class="add_book_section">
+                    <div class="add_book_phrase">Add book</div>
+                    <button class="add_new_book_btn">
+                        <img class="add_new_book_img" src="icons/book-plus.svg" alt="add_book" />
+                    </button>
+                </div>
+            </div>
+            <!-- <div class="book_card">
+            <button class="delete_card_btn">&#10006;</button>
+            <div class="author_section">
+                <label for="authorCard">Author</label>
+                <p class="authorCard" id="authorCard">ffffffffffff</p>
+            </div>
+
+            <div class="title_section">
+                <label for="titleCard">Books title</label>
+                <p class="titleCard" id="titleCard">ddddddddddd</p>
+            </div>
+
+            <div class="pages_section">
+                <label for="pagesCard">Pages amount</label>
+                <p class="pagesCard" id="pagesCard">333333dffddf33</p>
+            </div>
+
+            <div class="finish_section">
+                <label for="finishCard">Book finished</label>
+                <div class="finishCard" id="finishCard">&#10004;</div>
+            </div>
+        </div> -->
+        </div>
+
+        <!-- MODAL  -->
+        <div class="modal_container">
+            <div class="content_modal modal" id="modal">
+                <form class="book_data_form">
+                    <div>
+                        <label for="users_author">Input author</label>
+                        <input
+                            id="users_author"
+                            type="text"
+                            placeholder="E. M. Remarque"
+                            name="users_author"
+                        />
+                    </div>
+
+                    <div>
+                        <label for="users_book">Input book</label>
+                        <input
+                            type="text"
+                            id="users_book"
+                            name="users_book"
+                            placeholder="Arc de Triomphe"
+                        />
+                    </div>
+
+                    <div>
+                        <label for="user_pages">Input pages amount</label>
+                        <input type="number" id="user_pages" name="user_pages" placeholder="555" />
+                    </div>
+
+                    <div>
+                        <label for="user_read">Book finished</label>
+                        <input type="checkbox" id="user_read" name="user_read" value="finished" />
+                    </div>
+
+                    <button type="button" class="new_book_form_btn disabled" tabindex="0">
+                        add
+                    </button>
+                    <button type="button" class="cancel_btn">cancel</button>
+                </form>
+            </div>
+            <div id="overlay"></div>
+        </div>
+        <!--           -->
+
+        <script src="script.js"></script>
+    </body>
+</html>
